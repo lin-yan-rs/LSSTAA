@@ -3,7 +3,7 @@ This repository provides MATLAB code for the Least-Squares Spatio-Temporal Adjus
 LSSTAA constructs a network graph connecting overlapping images (shown below), where each con represents their radiometric relationship. The optimal solution for the entire network is then obtained through a least-squares adjustment, a well-established technique in surveying and photogrammetry.
 
 <p align="center" style="margin-bottom:4px;">
-  <img src="images/graph_new.png" width="65%">
+  <img src="images/graph_new.png" width="70%">
 </p>
 
 <p align="center"><em>Connection network</em></p>
