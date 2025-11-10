@@ -18,7 +18,7 @@ The key feature of LSSTAA is its ability to maintain radiometric consistency bet
 The figure below shows example mosaics before and after normalization. The LSSTAA effectively reduces seamlines and inter-image brightness and color differences in the mosaic, reflecting consistent radiometry in normalized time series.
 
 <p align="center">
-  <img src="images/doy174_before_.png" width="45%">
+  <img src="images/doy174_before__.png" width="45%">
   <img src="images/doy174_after_.png" width="45%">
 </p>
 
