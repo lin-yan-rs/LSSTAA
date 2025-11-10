@@ -43,7 +43,7 @@ The figure below shows example mosaics before and after normalization. The LSSTA
 
 3. **Run the script**  
    Execute the script in MATLAB.  
-   The results (normalized time series stack with a .hdr file, per-band normalization coefficients, three example mosaics) will be saved automatically in a new folder named **`output`** within the data directory.
+   The results (normalized time series stack with a .hdr file, per-band normalization coefficients, three pairs of example mosaics) will be saved automatically in a new folder named **`output`** within the data directory.
 
 
 ### Data
@@ -60,6 +60,7 @@ Two datasets are provided in the `data/` folder:
 2. The code to apply normalization coefficients to the original full-resolution GeoTIFF images is not included in this release. The current output is a binary image stack.  
 3. The code for data preparation (creating image stack, generating "doy.txt" file, and performing optional resampling) is not included in the current release. It is available upon request.
 4. Two intermediate files ("temporal_diff_map.ndvi" and "tmp_rsqs.mat") are saved in the output folder. Once generated, they are automatically used in future runs to save computation time. If the input data are changed or any modifications are made to PIF identification, these intermediate files should be deleted and regenerated.
+5. The reference can be manually set to user-preferred image(s), such as those with more natural color tones. See comments in Step 2 of Demo_LSSTAA_v1.m.
 
 ## Citation
 
