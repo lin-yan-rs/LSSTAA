@@ -63,7 +63,7 @@ Two datasets are provided in the `data/` folder:
 
 ## Citation
 
-Yan, L., Roy, D. P., & Huang, H. (2026). [*A least-squares spatio-temporal adjustment algorithm (LSSTAA) for radiometric normalization of PlanetScope time series*](https://www.sciencedirect.com/science/article/pii/S0924271625004174#f0035). ISPRS Journal of Photogrammetry and Remote Sensing, 231, 394–413.
+Yan, L., Roy, D. P., & Huang, H. (2026). [*A least-squares spatio-temporal adjustment algorithm (LSSTAA) for radiometric normalization of PlanetScope time series*](https://www.sciencedirect.com/science/article/pii/S0924271625004174). ISPRS Journal of Photogrammetry and Remote Sensing, 231, 394–413.
 
 For questions or feedback, please use the corresponding author’s email provided in the paper.
 
