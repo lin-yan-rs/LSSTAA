@@ -61,7 +61,7 @@
     for band_idx = 1:4
         I = I_all(:,:,band_idx:dims:bands_num_all);
 
-        [dCoefs_all_a, dCoefs_all_b, I_normalized, normalized_images] = CalculateCoefsByLS_v2_4(I, doys, controls, doy_diff_threshold_adj, PIF_map, show_scatterplots, band_idx);
+        [dCoefs_all_a, dCoefs_all_b, I_normalized, normalized_images_flag] = CalculateCoefsByLS_v2_4(I, doys, controls, doy_diff_threshold_adj, PIF_map, show_scatterplots, band_idx);
 
         % put normalized time series of current band in I_all_adj
         I_all_adj(:,:,band_idx:dims:bands_num_all) = I_normalized;
@@ -92,4 +92,5 @@
     fprintf('  example mosaics: %s/mosaics\n', outputDir);
     a = 1;
     
+
    
