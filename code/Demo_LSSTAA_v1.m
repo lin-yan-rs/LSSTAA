@@ -88,7 +88,7 @@
     fprintf('\n Output \n  normalized data: %s\n', filename);
 
     % 5. output 3 mosaics for visual comparison
-    Output_mosaics(I_all, I_all_adj, doys, outputDir);
+    Output_mosaics(I_all, I_all_adj, doys, outputDir, normalized_images_flag);
     fprintf('  example mosaics: %s/mosaics\n', outputDir);
     a = 1;
     
