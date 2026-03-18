@@ -1,4 +1,8 @@
 function Output_mosaics(I_all, I_all_adj, doys, outputDir, normalized_images)
+    if nargin < 5 || isempty(normalized_images)
+        normalized_images = ones(length(doys), 1);
+    end
+    
     doy_diff_max = 366; % all images images are considered
     dataDir_out = sprintf('%s/mosaic', outputDir);
     mkdir(dataDir_out);
